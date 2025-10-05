@@ -11,8 +11,8 @@ const App = () => {
     <div>
       <BrowserRouter>
         <Switch>
-          <Route path='/' component={Landing} />
-          <Route></Route>
+          <Route exact path='/' component={Landing} />
+          <Route path='/surveys' component='Dashboard'></Route>
           <Route></Route>
         </Switch>
       </BrowserRouter>
