@@ -8,7 +8,7 @@ class Header extends Component {
           <a className='left brand-logo'>Surf</a>
           <ul className='right'>
             <li>
-              <a>Login with Google</a>
+              <a>Login With Google</a>
             </li>
           </ul>
         </div>
