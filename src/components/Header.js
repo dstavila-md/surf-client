@@ -24,7 +24,9 @@ class Header extends Component {
     return (
       <nav>
         <div className='nav-wrapper'>
-          <a className='left brand-logo'>Surf</a>
+          <a href='/' className='brand-logo'>
+            <span style={{ padding: '0 0 0 10px' }}>Surf</span>
+          </a>
           <ul className='right'>{this.renderContent()}</ul>
         </div>
       </nav>
